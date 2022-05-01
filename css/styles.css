@@ -43,6 +43,8 @@
   font-style: normal;
   font-display: swap;
 }
+
+
 /* CUSTOM PROPERTIES */
 :root {
   --body-bg: #f1f4ff;
@@ -71,10 +73,10 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: var(--body-bg);
   color: var(--text-color);
 }
 
@@ -97,4 +99,6 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
