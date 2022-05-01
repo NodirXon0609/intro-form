@@ -2,7 +2,7 @@
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-Bold.woff2") format("woff2"),
-       url("../fonts/Inter-Bold.woff") format("woff");
+  url("../fonts/Inter-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"),
-       url("../fonts/Inter-ExtraBold.woff") format("woff");
+  url("../fonts/Inter-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-Medium.woff2") format("woff2"),
-       url("../fonts/Inter-Medium.woff") format("woff");
+  url("../fonts/Inter-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -29,7 +29,7 @@
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
-       url("../fonts/Inter-SemiBold.woff") format("woff");
+  url("../fonts/Inter-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -38,7 +38,7 @@
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-Regular.woff2") format("woff2"),
-       url("../fonts/Inter-Regular.woff") format("woff");
+  url("../fonts/Inter-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -102,3 +102,76 @@ img {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+
+/* INTRO-PAGE-BEGIN */
+.intro-page {
+  display: flex;
+}
+
+/* HERO-BEGIN */
+.hero {
+  --text-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 570px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: var(--text-color);
+}
+
+.hero-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 55px 60px;
+  background-color: #222;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-badge {
+  padding: 5px 15px;
+  border: 1px solid var(--text-color);
+  margin-bottom: 60px;
+  border-radius: 41px;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 500;
+}
+
+.hero-heading {
+  width: 100%;
+  max-width: 389px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 128%;
+}
+
+.hero-text {
+  width: 100%;
+  max-width: 347px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.hero-bottom {
+  padding: 28px;
+  background-color: var(--green);
+  font-size: 19px;
+  text-align: center;
+}
+/* HERO-END */
+
+/* REGISTRATION-FORM-BEGIN  */
+
+
+/* REGISTRATION-FORM-END */
+
+/* INTRO-PAGE-END */
